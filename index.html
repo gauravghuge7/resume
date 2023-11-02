@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+        <title>Document</title>
+
+
+        <style>
+            div {
+                height: 300px;
+                width: 200px;
+                background-color: red;
+                transition: 3s;
+            }
+
+        </style>
+    </head>
+    <body>
+
+        <div id="one">
+            <p> this is first paragraph </p>
+        </div>
+        <button onclick="printsomething()"> perform some task </button>
+        
+        <script>
+            function printsomething() {
+
+            // document.getElementById("one").style.height="400px";
+            // document.getElementById("one").style.backgroundColor="blue";
+                
+            document.getElementById("one").style.transform="rotateZ(28000deg)";
+            // document.getElementsById("one").style.transform="rotateZ(28000deg)";
+
+            }
+        </script>
+    </body>
+</html>
